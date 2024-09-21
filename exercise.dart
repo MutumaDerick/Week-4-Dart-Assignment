@@ -1,6 +1,6 @@
 import 'dart:io';
 
-import 'package:intl/intl.dart';
+
 
 // Function to perform basic string manipulation
 String manipulateString(String input) {
@@ -11,7 +11,7 @@ String manipulateString(String input) {
 // Function to log the date and time of the entry
 String getCurrentDateTime() {
   DateTime now = DateTime.now();
-  String formattedDate = DateFormat('yyyy-MM-dd – kk:mm').format(now);
+  String formattedDate = now.toString();
   return formattedDate;
 }
 
